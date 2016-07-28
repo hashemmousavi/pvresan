@@ -843,7 +843,7 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => $pmembersiddd[1
 }
 
 
-define('WEBHOOK_URL', 'https://my-site.example.com/secret-path-for-webhooks/');
+define('WEBHOOK_URL', 'https://seyyedpvresanbot-seyyedpvresanbot.rhcloud.com');
 
 if (php_sapi_name() == 'cli') {
   // if run from console, set or delete webhook
